@@ -1,0 +1,169 @@
+/* TodoList.css */
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/06/21/31/57/360_F_621315748_d5g9FRUe5XarhltMBNxouH2AFYF9mWqy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ }
+/* Navbar */
+.navbar {
+    background-color: #c89be2; /* Light gray background color */
+  }
+  
+
+  /* TodoList.css */
+
+/* Navbar */
+.navbar {
+    background-color: #c89be2; /* Light gray background color */
+}
+
+/* Logout Button */
+.navbar .btn-danger {
+    background-color: transparent; /* Red background color */
+    border-color: transparent; /* Match border color to background color */
+    margin-right: 10px; /* Add space between company name and logout button */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+.navbar a{
+    text-decoration: none;
+}
+/* Logout Button */
+/* Logout Button */
+.navbar .btn-danger {
+    background-color: transparent; /* Red background color */
+    border-color: transparent; /* Match border color to background color */
+    margin-right: 10px; /* Add space between company name and logout button */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+    text-decoration: none; /* Remove text decoration */
+    color: #fff; /* White text color */
+}
+
+/* Hover effect for Logout Button */
+.navbar .btn-danger:hover {
+    background-color: #c82333; /* Darker red background color on hover */
+    border-color: #c82333; /* Match border color to hover background color */
+}
+
+
+/* Hover effect for Logout Button */
+.navbar .btn-danger:hover {
+    background-color: #c82333; /* Darker red background color on hover */
+    border-color: #c82333; /* Match border color to hover background color */
+}
+
+  /* Company Name */
+  .company-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+  }
+  
+  /* Logout Button */
+  .navbar .btn-danger {
+    margin-right: 10px; /* Add space between company name and logout button */
+  }
+  
+  /* Todo Container */
+  .todo-container {
+    max-width: 800px; /* Limit the width of the todo container */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  /* Todo Heading */
+  .todo-heading {
+    margin-bottom: 20px; /* Add space below the todo heading */
+  }
+  
+  /* Todo Input */
+  .form-control {
+    margin-bottom: 10px; /* Add space below the todo input */
+  }
+  
+  /* Add Todo Button */
+  .btn-primary {
+    margin-bottom: 20px; /* Add space below the add todo button */
+  }
+  
+  /* Todo Item */
+  .list-group-item {
+    display: flex;
+    justify-content: space-between; /* Align todo items horizontally with space between */
+    align-items: center; /* Center the items vertically */
+    padding: 10px;
+    border: none; /* Remove border from todo items */
+    border-radius: 5px; /* Add border radius */
+    background-color: #fff; /* White background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  }
+  
+  /* Todo Item Text */
+  .list-group-item .todo-text {
+    flex: 1; /* Allow text to grow to fill available space */
+  }
+  
+  /* Todo Item Due Date */
+  .list-group-item .due-date {
+    margin-left: 10px; /* Add space to the left of due date */
+    font-style: italic; /* Italicize due date */
+    color: #888; /* Gray text color for due date */
+  }
+  
+  /* Delete Todo Button */
+  .list-group-item .delete-button {
+    background-color: #dc3545; /* Red background color */
+    border: none; /* Remove border */
+    color: #fff; /* White text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 5px; /* Add border radius */
+  }
+  
+  /* Hover effect for Delete Todo Button */
+  .list-group-item .delete-button:hover {
+    background-color: #c82333; /* Darker red background color on hover */
+  }
+  
+
+  .nav-item{
+    margin-left: 1300px;
+  }
+
+  @media (max-width: 768px) {
+    .nav-item {
+      margin-left: auto; /* Set margin-left to auto to push the logout button to the right */
+    }
+  }
+  
+  /* TodoContainer */
+.todo-container {
+    max-width: 600px; /* Limit the width of the todo container */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  /* TodoHeading */
+  .todo-heading {
+    font-size: 24px; /* Larger font size for the todo heading */
+    margin-bottom: 20px; /* Add space below the todo heading */
+    color: #333; /* Dark text color */
+  }
+  
+  /* TodoInput */
+  .form-control {
+    margin-bottom: 10px; /* Add space below the todo input */
+  }
+  
+  /* AddTodoButton */
+  .btn-primary {
+    background-color: #007bff; /* Blue background color for the add todo button */
+    border: none; /* Remove button border */
+    color: #fff; /* White text color */
+  }
+  
+  /* AddTodoButton Hover Effect */
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue background color on hover */
+  }
+  

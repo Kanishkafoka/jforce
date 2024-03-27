@@ -1,0 +1,48 @@
+/* TodoItem.css */
+
+/* Todo Item Container */
+.todo-item-container {
+    display: flex;
+    justify-content: space-between; /* Align items with space between */
+    align-items: center; /* Center items vertically */
+    padding: 10px;
+    margin-bottom: 10px; /* Add space between todo items */
+    background-color: #f8f9fa; /* Light gray background color */
+    border-radius: 5px; /* Add border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+/* Todo Item Text */
+.todo-text {
+    flex: 1; /* Allow text to grow to fill available space */
+    font-size: 16px; /* Font size */
+    color: #333; /* Dark text color */
+}
+
+/* Completed Todo Text */
+.todo-text.completed {
+    text-decoration: line-through; /* Add line-through style for completed todos */
+}
+
+/* Due Date */
+.due-date {
+    font-size: 14px; /* Smaller font size for due date */
+    color: #888; /* Gray text color */
+    margin-left: 10px; /* Add space to the left of due date */
+}
+
+/* Delete Button */
+.delete-button {
+    background-color: #dc3545; /* Red background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    padding: 8px 12px; /* Add padding */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+/* Hover effect for Delete Button */
+.delete-button:hover {
+    background-color: #c82333; /* Darker red background color on hover */
+}
